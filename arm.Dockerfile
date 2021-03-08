@@ -5,6 +5,6 @@ ENV arch='arm'
 
 COPY conf/ /
 
-EXPOSE 80 443
+EXPOSE 8766
 
 VOLUME ["/config"]
